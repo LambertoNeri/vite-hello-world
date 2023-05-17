@@ -4,8 +4,8 @@
 
   export default {
     components: {
-      AppTitle: AppTitle,
-      AppHero: AppHero
+      AppTitle,
+      AppHero
     }
   }
 

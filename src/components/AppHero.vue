@@ -1,14 +1,15 @@
 <script>
+  export default {
+        name: "AppHero"
+    }
 </script>
 
 <template>
-    
-    <div>
-  <b-jumbotron header="BootstrapVue" lead="Bootstrap v4 Components for Vue.js 2">
-    <p>For more information visit website</p>
-    <b-button variant="primary" href="#">More Info</b-button>
-  </b-jumbotron>
+ <div class="mt-4 p-5 bg-primary text-white rounded">
+  <h1>Jumbotron Example</h1>
+  <p>Lorem ipsum...</p>
 </div>
+<span class="badge rounded-pill text-bg-primary">Primary</span>
 </template>
 
 <style scoped>
